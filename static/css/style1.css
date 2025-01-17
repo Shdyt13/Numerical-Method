@@ -1,0 +1,215 @@
+/* General Styles */
+body {
+    background-color: #FFFFFF; /* Putih */
+    color: #003366; /* Biru Tua */
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 4px 10px rgba(0, 51, 102, 0.5); /* Biru Tua */
+    color: #003366; /* Biru Tua */
+    margin: 0;
+}
+
+/* Form Section */
+form {
+    background: linear-gradient(145deg, #50C878, #D3D3D3); /* Hijau Emerald ke Abu-abu Muda */
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #003366; /* Biru Tua */
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    font-size: 1.3rem;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #003366; /* Biru Tua */
+}
+
+input, button {
+    width: 95%;
+    padding: 15px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    border: 2px solid #003366; /* Biru Tua */
+    border-radius: 10px;
+    background: #FFFFFF; /* Putih */
+    color: #003366; /* Biru Tua */
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #50C878; /* Hijau Emerald */
+    box-shadow: 0px 4px 8px rgba(80, 200, 120, 0.5);
+}
+
+button {
+    width: auto;
+    background-color: #003366; /* Biru Tua */
+    color: #FFFFFF; /* Putih */
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #50C878; /* Hijau Emerald */
+    color: #003366; /* Biru Tua */
+    transform: scale(1.1);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Centering Button */
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Solution Steps Section */
+#solution-steps {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #FFFFFF; /* Putih */
+    border: 2px solid #003366; /* Biru Tua */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.5rem;
+    color: #003366; /* Biru Tua */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #50C878; /* Hijau Emerald */
+}
+
+th, td {
+    border: 1px solid #003366; /* Biru Tua */
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background: #FFC107; /* Kuning Mustard */
+    color: #003366; /* Biru Tua */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+td {
+    background: #D3D3D3; /* Abu-abu Muda */
+    color: #003366; /* Biru Tua */
+}
+
+.table-container {
+    border: 2px solid #003366; /* Warna Biru Tua */
+    border-radius: 10px; /* Sudut melengkung */
+    padding: 15px; /* Jarak dalam */
+    margin-top: 20px; /* Jarak atas */
+    background-color: #f9f9f9; /* Warna latar belakang kontainer */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+.table-container table {
+    margin: 0 auto; /* Pusatkan tabel di dalam kontainer */
+}
+
+#team-info {
+    margin-bottom: 20px; /* Jarak di bawah tabel team info */
+    text-align: center;
+}
+
+#team-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    table-layout: fixed; /* Menetapkan ukuran kolom tetap */
+}
+
+#team-info th, #team-info td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #003366; /* Biru Tua */
+    word-wrap: break-word; /* Memastikan teks tetap dalam kolom */
+}
+
+#team-info th, #team-info td {
+    width: 50%; /* Memberikan ukuran kolom sama */
+}
+
+#team-info th {
+    background-color: #FFC107; /* Kuning Mustard */
+    font-weight: bold;
+}
+
+#team-info td {
+    background-color: #D3D3D3; /* Abu-abu Muda */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #003366; /* Biru Tua */
+    color: #FFFFFF; /* Putih */
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Error Section */
+.error-section {
+    text-align: center;
+    margin: 20px;
+    color: #50C878; /* Hijau Emerald */
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    #solution-steps {
+        padding: 20px;
+    }
+}

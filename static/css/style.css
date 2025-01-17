@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    background-color: #f0f0f0; /* Abu-abu Muda */
+    color: #003366; /* Biru Tua */
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #003366; /* Biru Tua */
+    margin: 0;
+}
+
+/* Form Section */
+form {
+    background: linear-gradient(145deg, #66cc99, #f0f0f0); /* Hijau Mint ke Abu-abu Muda */
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #ffcc00; /* Kuning Cerah */
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    font-size: 1.3rem;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #003366; /* Biru Tua */
+}
+
+input, button {
+    width: 95%;
+    padding: 15px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    border: 2px solid #66cc99; /* Hijau Mint */
+    border-radius: 10px;
+    background: #ffffff; /* Putih */
+    color: #003366; /* Biru Tua */
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #ffcc00; /* Kuning Cerah */
+    box-shadow: 0px 4px 8px rgba(255, 204, 0, 0.2);
+}
+
+button {
+    width: auto;
+    background-color: #003366; /* Biru Tua */
+    color: #ffffff; /* Putih */
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #66cc99; /* Hijau Mint */
+    color: #003366; /* Biru Tua */
+    transform: scale(1.1);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Centering Button */
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Memberi jarak di atas tombol */
+}
+
+/* Solution Steps Section */
+#solution-steps {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffffff; /* Putih */
+    border: 1px solid #66cc99; /* Hijau Mint */
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.5rem;
+    color: #003366; /* Biru Tua */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #66cc99; /* Hijau Mint */
+}
+
+th, td {
+    border: 1px solid #66cc99; /* Hijau Mint */
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background: #ffcc00; /* Kuning Cerah */
+    color: #003366; /* Biru Tua */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+td {
+    background: #e6ffea; /* Hijau Mint Muda */
+    color: #003366; /* Biru Tua */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #66cc99; /* Hijau Mint */
+    color: #003366; /* Biru Tua */
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Error Section */
+.error-section {
+    text-align: center;
+    margin: 20px;
+    color: #003366; /* Biru Tua */
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    #solution-steps {
+        padding: 20px;
+    }
+}
